@@ -7,9 +7,10 @@ header {
     text-transform: uppercase;
     height: 100%;
     display: flex;
+    padding-top: 10px;
     justify-content: space-around;
     align-items: center;
-    font-size: 1.8rem;
+    font-size: 1.1rem;
 }
 .logo {
     font-size: 1.8rem;
@@ -26,7 +27,7 @@ header {
 .list-itens a {
     text-decoration: none;
     color: var(--branco);
-    padding: 1.5rem;
+    padding: 1.1rem;
     /* efeito de transição */
     transform: 2ms ease-in;
     position: relative;
@@ -41,7 +42,7 @@ header {
     width: 0px;
     height: 1px;
     background-color: var(--amarelo);
-    transition: all 1.5s ease;
+    transition: all 0.5s ease;
 }
 
 .list-itens a:hover:before {
