@@ -14,14 +14,14 @@ main {
 
 .texto-principal {
     width: 850px;
-    font-size: 5rem;
+    font-size: 4rem;
     margin-bottom: 2rem;
     text-align: center;
 }
 
 .texto-secundario {
-    margin-bottom: 7rem;
-    font-size: 2rem;
+    margin-bottom: 4rem;
+    font-size: 1.2rem;
     color: var(--cinza);
     text-transform: uppercase;
 }
