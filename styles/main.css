@@ -1,0 +1,70 @@
+main {
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-principal {
+    width: 850px;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.texto-secundario {
+    margin-bottom: 7rem;
+    font-size: 2rem;
+    color: var(--cinza);
+    text-transform: uppercase;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btns button {
+    width: 250px;
+    height: 60px;
+    cursor: pointer;
+    border: 1px solid var(--branco);
+    color: var(--branco);
+    text-transform: uppercase;
+    background-color: transparent;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    border-radius: 20px;
+    position: relative;
+    transition: 1.5s;
+}
+
+.btns button:hover {
+    color: var(--amarelo);
+    border: none;
+}
+
+.btns button:before {
+    content: ' ';
+    border-radius: 20px;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    height: 60px;
+    position: absolute;
+    background-color: var(--cinza-escuro);
+    z-index: -1;
+    transition: 1s;
+}
+
+.btns button:hover:before {
+    width: 100%;
+}
